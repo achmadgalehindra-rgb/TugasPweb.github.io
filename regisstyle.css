@@ -1,0 +1,220 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background: #fff2fc;
+}
+
+.background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+}
+
+.text{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    color: #ffffff;
+}
+.text p{
+    padding-top: 16%;
+    font-size: 25px;
+    position: relative;
+}
+.text h1{
+    font-size: 32px;
+    margin: 35px 0px 0px 0;
+    line-height: 48px;
+    letter-spacing: 1px;
+    position: relative;
+}
+.registration{
+    width: 30%;
+    height: 100%;
+    color: #000000;
+    margin: 23% auto;
+}
+.registration p{
+     font-size: 20px;
+     margin: 30px 0;
+     text-shadow: 0px 0px 20px #a8a8a8;;
+}
+.registration input{
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline-color: #FFB0CD;
+    box-shadow: 0px 0px 15px #d4d4d4;
+}
+.registration 
+
+.pisah{
+    display: flex;
+    width: 100%;
+}
+.umur{
+    width: 45%;
+}
+.kekayaan{
+    width: 45%;
+    margin-left: 10%;   
+}
+
+.registration button{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15% 30%;
+    padding: 20px 25px;
+    width: 40%;
+    border: 0;
+    border-radius: 15px;
+    background-color: #FFB0CD;
+    box-shadow: 0px 0px 20px #ffb3f5   
+}
+.acc img {
+    margin-left: -8%;
+    opacity: 70%;
+    margin-top: -35%;
+    transform: rotate(12deg);
+    animation: img 1s ease-in-out infinite;
+    animation-duration: 4s;
+}
+.pcc img {
+    width: 15%;
+    margin-left: 90%;
+    opacity: 70%;
+    margin-top: -70%;
+    transform: rotate(189deg);
+    animation: img 1s ease-in-out infinite;
+    animation-duration: 4s;
+}
+
+.judul p{
+    margin-top: 0%;
+    margin-left: -10%;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 600;
+    position: initial; 
+}
+.tabel{
+    background-color: #ffffff;
+    border-collapse: collapse;
+    margin-left: -10%;
+    margin-top: 0%;
+    font-size: 18px;
+    min-width: 400px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    box-shadow: 6px 6px 15px #c2c2c2;
+    
+}
+.tabel thead tr{
+    background-color: #FFB0CD;
+    color: #ffffff;
+    text-align: left;
+    border: 2px solid #FFFF;
+    border-radius: 50px;
+    height: 40px;
+}
+.tabel th{
+    text-align: center;
+}
+.tabel th,
+.tabel td{
+    padding: 17px 25px;
+    border-right: 1px solid #dddddd;;
+}
+
+.garistab{
+    border: 3px solid #FFFF;
+}
+
+.tabel thead td{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+    line-height: 30px;
+    font-size: 16px;
+}
+.tabel thead td:nth-of-type(even){
+    background-color: #f3f3f3;
+} 
+
+.popup .overlay {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.7);
+    z-index:1;
+    display:none;
+  }
+  
+  .popup .content {
+    position:absolute;
+    top: 125%;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background:#fff2fc;
+    width:500px;
+    border-radius: 15px;
+    height:250px;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:"Open Sans",sans-serif;
+  }
+  .popup .content h1{
+      margin-top: 10px;
+      margin-left: -10px;
+      font-size: 25px;
+      font-size: "Open Sans",sans-serif; ;
+  }
+  .popup .content p{
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: "Open Sans",sans-serif; ;
+}
+
+  .popup .close-btn {
+    cursor:pointer;
+    position:absolute;
+    right:20px;
+    top:20px;
+    width:30px;
+    height:30px;
+    background:#222;
+    color:#fff;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+  }
+  
+  .popup.active .overlay {
+    display:block;
+  }
+  
+  .popup.active .content {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+  }
