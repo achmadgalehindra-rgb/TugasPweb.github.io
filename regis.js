@@ -1,3 +1,5 @@
+alert("Selamat datang kaum jombs")
+
 function togglePopup()
 {
     var nama = document.getElementById("profil");
